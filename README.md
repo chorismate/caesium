@@ -33,7 +33,7 @@ $ ./caesium
 
 
 ## Licensing
-Caesium is (unlicensed)[https://unlicense.org/] and is therefore in the
+Caesium is [unlicensed](https://unlicense.org/) and is therefore in the
 worldwide public domain, meaning that you can do almost anything with the
 source code without asking my permission.
 
