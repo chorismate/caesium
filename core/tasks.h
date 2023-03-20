@@ -1,3 +1,8 @@
+/*
+ * Caesium v0.1 - time management utility by Chorismate
+ * tasks.h
+ */
+
 #ifndef __TASKS_H__
 #define __TASKS_H__
 
