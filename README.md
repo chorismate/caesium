@@ -17,19 +17,19 @@ $ ./caesium
 ## Roadmap
 
 ### Early development
-- Tasks module `tasks.c` and `tasks.h` usable by March 27
-- Blocks module `blocks.c` and `blocks.h` usable by March 27
-- Able to build with `make` by March 27
+- Tasks module `tasks.c` and `tasks.h` usable by end of April
+- Blocks module `blocks.c` and `blocks.h` usable by end of April
+- Able to build with `make` by end of April
 
 ### Alpha
-- Able to match tasks to free (non-blocked) time by April 2
-- Task priorities by April 2
+- Able to match tasks to free (non-blocked) time by end of May
+- Task priorities by end of May
 
 ### Beta
-- Simplistic auto-scheduling by end of Q2 2023
+- Simplistic auto-scheduling by end of Q3 2023
 
 ### Production
-- Complete auto-scheduling by end of Q3 2023
+- Complete auto-scheduling by end of Q4 2023
 
 
 ## Licensing
