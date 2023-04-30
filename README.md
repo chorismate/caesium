@@ -34,18 +34,20 @@ $ ./caesium
 
 ## Licensing
 Caesium is [unlicensed](https://unlicense.org/) and is therefore in the
-worldwide public domain, meaning that you can do almost anything with the
-source code without asking my permission.
+worldwide public domain. I want to write software, not to sue people over
+licenses, which, after all, are legal constructs.
 
-Instead of forcibly imposing a bunch of restrictive legalese on you, I'd like to
-request in a non-binding way that you give back by releasing your modifications
-to Caesium (if you choose to make any) into the public domain.
-
+Do whatever (but be nice).
 
 ## FAQ
 
 ### Why isn't there a graphical interface?
 Because Caesium is currently in a very early development stage.
+
+### C and Python in one project!?
+I'm implementing the wrapper, user interface, and manual scheduler in Python
+because those aren't nearly as performance-critical. The automatic scheduler
+will be implemented in C.
 
 ### Why is it called Caesium?
 I like naming my softwares after elements, and caesium the element is used in
