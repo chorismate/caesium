@@ -2,15 +2,12 @@
 # -*- coding: utf-8 -*-
 #
 
-""" Important notes
-"""
-
 """ Task format
-	tasks[name] = [         # name: name of task
-		"desc": string,       # description
-		"sdue": int unix_time # soft due date
-		"hdue": int unix_time # hard due date
-	]
+	tasks[name] = ( # string: name of task
+		description,  # string: description of task
+		soft_due,     # soft due date
+		hard_due      # integer unix time: hard due date
+	)
 """
 tasks = {}
 
@@ -21,6 +18,8 @@ tasks = {}
 	)
 """
 blocks = {}
+
+
 
 if __name__ == "__main__":
 	print("Caesium by Chorismate - a time management utility")
