@@ -3,10 +3,12 @@ Caesium is a simple command-line utility for time management.
 
 
 ## Installation
-Figure it out yourself. I feel lazy.
+This is an early development stage. Install it yourself.
+Don't expect it to work since it probably won't.
 
 
 ## Roadmap
+Certainly failing to be followed (lmao).
 
 ### Early development
 - Tasks module `tasks.c` and `tasks.h` usable by end of April
@@ -25,20 +27,6 @@ Figure it out yourself. I feel lazy.
 
 
 ## FAQ
+Why not *not* use a fake FAQ?
 
-### C and Python in one project!?
-I'm implementing the wrapper, user interface, and manual scheduler in Python
-because those aren't nearly as performance-critical. The automatic scheduler
-will be implemented in C.
-
-### Why is it called Caesium?
-I like naming my softwares after elements, and caesium the element is used in
-atomic clocks.
-
-
-## Licensing
-Caesium is [unlicensed](https://unlicense.org/) and is therefore in the
-worldwide public domain. I want to write software, not to sue people over
-licenses, which, after all, are legal constructs.
-
-Do whatever (but be nice).
+Just email me. There's no such thing as a stupid question.
