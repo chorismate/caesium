@@ -27,32 +27,35 @@ if __name__ == "__main__":
 	
 	
 	while True:
-		print("> ", end="")
+		print(">", end=" ")
 		inp = input()
 		cmd = inp[0]
 		arg = inp[1:]
 		
 		
 		if   cmd == 'a':
-			if   arg == 'd':
-				print("Allocating task.")
-				name = input("  Name: ")
+			if   arg == 't':
+				print("allocating task")
+				name = input("  name: ")
 				if name in tasks:
-					print("Another task already exists with the same name.")
+					print("name taken")
 				else:
-					desc = input("  Description: ")
+					desc = input("  description: ")
 					try:
-						sdue = int(input("  Soft due date: "))
-						hdue = int(input("  Hard due date: "))
+						sdue = int(input("  soft due: "))
+						hdue = int(input("  hard due: "))
 					except ValueError:
-						print("Not a valid integer.")
+						print("not an integer")
 					tasks[name] = {}
 			elif arg == 'b':
-				print("Allocating block.")
-				name = input("  Name: ")
+				print("allocating block")
+				name = input("  name: ")
 				if name in blocks:
-					print("Another block already exists with the same name.")
-			
+					print("name taken")
+				else:
+					desc = input("  description: ")
+					try:
+						pass
 		elif cmd == 'd':
 			pass
 			
